@@ -1,7 +1,7 @@
 {
   "name": "node-terminal",
   "version": "1.0.0",
-  "description": "Google Maps Library",
+  "description": "Node Terminal is a function to running UNIX command.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,8 +13,7 @@
   "keywords": [
     "terminal",
     "linux",
-    "command",
-    "command",
+    "command"
   ],
   "author": {
     "name": "Fedinand",
