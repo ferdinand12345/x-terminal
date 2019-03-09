@@ -1,11 +1,11 @@
-# Node Terminal
+# X Terminal
 
-Node Terminal is a useful UNIX Command. 
+X Terminal is a useful UNIX Command. 
 
 ## Installation
 
 ```
-$ npm install node-terminal
+$ npm install x-terminal
 ```
 
 ## Features
@@ -16,12 +16,12 @@ Now, let’s describe the features:
 
 ## Usages
 
-### Include the Node Terminal to your code
+### Include the X Terminal to your code
 
-First, you must include the Node Terminal to your code.
+First, you must include the X Terminal to your code.
 
 ```
-var terminal = require( 'node-terminal' );
+var terminal = require( 'x-terminal' );
 ```
 
 ### Run the command
@@ -29,7 +29,7 @@ var terminal = require( 'node-terminal' );
 Define your command and execute it, like this :
 
 ```
-var terminal = require( 'node-terminal' );
+var terminal = require( 'x-terminal' );
 var command = "pwd";
 res.json( {
 	results: terminal.exec( command )
@@ -54,7 +54,7 @@ Result in Terminal :
 You can return it into array, try this :
 
 ```
-var terminal = require( 'node-terminal' );
+var terminal = require( 'x-terminal' );
 var command = "ls -F";
 res.json( {
 	results: terminal.exec_to_array( command )

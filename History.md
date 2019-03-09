@@ -11,4 +11,4 @@
   * Create function list_cronjob
   * Create function list_files
   * Create function exec
-  * Start develop Node Terminal
+  * Start develop X Terminal
